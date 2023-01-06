@@ -21,7 +21,7 @@ height() is a helper method for maxDepth, which keeps track of all the leaf node
 COMMANDS
 insert(trie, st): inserts a string st into a non-empty trie trie. Returns either true or false indicating whether or not the insertion is successful.
 
-trieToList(trie): creates a list of strings in trie in increasing lexicographic order. You are not allowed to use any kind of sort methods to sort the list. 
+trieToList(trie): creates a list of strings in trie in increasing lexicographic order. (traversal of tree not a sorting algorithm)
 
 largest(trie): returns the largest string in lexicographic order from the set of
 strings stored in trie. You can assume that trie is not empty.
@@ -30,8 +30,7 @@ smallest(trie): returns the smallest string in lexicographic order from the set
 of strings stored in trie. You may assume that trie is not empty.
 
 search(trie, st): returns the string in trie that has the longest (and closest)
-prefix match with st as described in Section 1.2. You may assume that trie is not
-empty.
+prefix match with st. You may assume that trie is not empty.
 
 size(trie): returns the number of strings stored in the trie.
 
