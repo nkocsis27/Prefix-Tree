@@ -19,6 +19,7 @@ height() is a helper method for maxDepth, which keeps track of all the leaf node
 
 *****
 COMMANDS
+
 insert(trie, st): inserts a string st into a non-empty trie trie. Returns either true or false indicating whether or not the insertion is successful.
 
 trieToList(trie): creates a list of strings in trie in increasing lexicographic order. (traversal of tree not a sorting algorithm)
